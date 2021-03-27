@@ -20,12 +20,12 @@ export class TheQuoteComponent implements OnInit {
 
    ];
   
-   get sortQuotes() {
+   get arrangeQuotes() {
     return this.quotes.sort((a, b) => {
       return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
     });
   }
-     addedQuote(quote:any){
+     createQuote(quote:any){
     let arraysize = this.quotes.length;
     quote.id = arraysize+1;
     quote.completeDate = new Date(quote.completeDate)
@@ -42,7 +42,7 @@ export class TheQuoteComponent implements OnInit {
   }
  
   displayInfo(index:number) {
-    this.quotes[index].showInfo = !this.quotes[index].showInfo;
+    this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
   
    constructor() { }

@@ -5,12 +5,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-3">
-        <app-quotes-form (add)="addedQuote($event)"></app-quotes-form>
+        <app-quotes-form (add)="createQuote($event)"></app-quotes-form>
       </div>
       <div class="col-sm-9">
-        <div class="all-cards">
+        <div class="cards">
           <div
-            *ngFor="let quote of sortQuotes; let i = index"
+            *ngFor="let quote of arrangeQuotes; let i = index"
             class="card"
             style="width: 24rem"
           >
@@ -27,8 +27,8 @@
               </h4>
               <p class="card-text" id="param">{{ quote.quote }}</p>
               <app-quote-detail
-                *ngIf="quote.showInfo"
-                [quoty]="quote"
+                *ngIf="quote.showDetails"
+                [quoteDetail]="quote"
                 (isRead)="quoteDelete($event, i)"
               ></app-quote-detail>
               <span class="card-subtitle mb-2"
