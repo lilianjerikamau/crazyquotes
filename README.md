@@ -7,6 +7,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Name :Lilian Kamau
 Github link https://github.com/lilianjerikamau
 
+## Installation
+
+clone project from: https://github.com/lilianjerikamau/crazyquotes.git
+
+## Technologies used
+
+html5
+css3
+Bootstrap 4
+Angular 11
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
