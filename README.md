@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
+## Author
+
+Name :Lilian Kamau
+Github link https://github.com/lilianjerikamau
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -24,4 +29,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
+## Contact
+
+If you have any question or contributions, please email me at [lilianjerikamau@gmail.com]
+
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## License & copyright
+
+[MIT](https://choosealicense.com/licenses/mit/) © [Lilian Kamau](https://github.com/lilianjerikamau/lilianjerikamau.github.io)
