@@ -15,7 +15,7 @@ export class TheQuoteComponent implements OnInit {
     new Quote (2,'Wendy','Personality','Be the person yor dog thinks you are.','Max Frisch',new Date(2019,7,14),0,0),
     new Quote (3,'Mikey','Life','Everything is going to be alright.','Libby Larsen',new Date(2019,6,3),0,0),
     new Quote (4,'Beatrice','Communication','Be loyal to your future not your past.','Clay Shirky',new Date(2019,7,7),0,0),
-    new Quote (5,'Charles','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2019,7,17),0,0),
+    new Quote (5,'Charles','Dear self','Less fear more hope.','Harold Abelson',new Date(2019,7,17),0,0),
     new Quote (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
 
    ];
