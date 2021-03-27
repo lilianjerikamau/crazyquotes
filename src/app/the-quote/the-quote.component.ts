@@ -16,7 +16,7 @@ export class TheQuoteComponent implements OnInit {
     new Quote (3,'Mikey','Life','Everything is going to be alright.','Libby Larsen',new Date(2019,6,3),0,0),
     new Quote (4,'Beatrice','Communication','Be loyal to your future not your past.','Clay Shirky',new Date(2019,7,7),0,0),
     new Quote (5,'Charles','Dear self','Less fear more hope.','Harold Abelson',new Date(2019,7,17),0,0),
-    new Quote (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
+    new Quote (6,'Jaycee','Tech and life','One day at a timegit.','Alice Kahn',new Date(2019,7,15),0,0)
 
    ];
   
