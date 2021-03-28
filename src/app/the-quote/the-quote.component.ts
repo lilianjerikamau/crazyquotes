@@ -15,7 +15,7 @@ export class TheQuoteComponent implements OnInit {
     new Quote (2,'Wendy','Personality','The greatest glory in living lies not in never falling, but in rising every time we fall.','Nelson Mandela',new Date(2019,7,14),0,0),
     new Quote (3,'Mikey','Life','The way to get started is to quit talking and begin doing..','Walt Disney',new Date(2019,6,3),0,0),
     new Quote (4,'Beatrice','Communication','If life were predictable it would cease to be life, and be without flavor..','Eleanor Roosevelt',new Date(2019,7,7),0,0),
-    new Quote (5,'Charles','Dear self','Less fear more hope.','Harold Abelson',new Date(2019,7,17),0,0),
+    new Quote (5,'Charles','Dear self','If you set your goals ridiculously high and its a failure, you will fail above everyone elses success..','Harold Abelson',new Date(2019,7,17),0,0),
     new Quote (6,'Jaycee','Tech and life','One day at a timegit.','Alice Kahn',new Date(2019,7,15),0,0)
 
    ];
