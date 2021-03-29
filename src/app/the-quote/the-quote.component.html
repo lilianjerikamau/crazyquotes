@@ -15,13 +15,27 @@
             style="width: 24rem"
           >
             <div class="card-body">
-              <h4 class="card-title" appHighlightQoute>
+              <h4 class="card-title">
                 {{ quote.title }}
                 <button (click)="displayInfo(i)" class="btn btn-info btn-sm">
                   See More
                 </button>
               </h4>
-              <p class="card-text" id="param">{{ quote.quote }}</p>
+              <p
+                class="card-text"
+                id="param"
+                appHighlight
+                *ngIf="highestUpvote() === quote.upvotes && quote.upvotes > 0"
+              >
+                {{ quote.quote }}
+              </p>
+              <p
+                class="card-text"
+                id="param"
+                *ngIf="highestUpvote() !== quote.upvotes || quote.upvotes === 0"
+              >
+                {{ quote.quote }}
+              </p>
               <app-quote-detail
                 *ngIf="quote.showDetails"
                 [quoteDetail]="quote"

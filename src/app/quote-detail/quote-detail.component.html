@@ -6,10 +6,10 @@
 </h6>
 <div class="container-fluid" id="buttons">
   <button class="btn btn-sm btn-success" (click)="upvote()">
-    {{ quoteDetail.likes }} <i class="fa fa-thumbs-up" id="like"></i>
+    {{ quoteDetail.upvotes }} <i class="fa fa-thumbs-up" id="like"></i>
   </button>
   <button class="btn btn-sm btn-info" id="hate" (click)="downvote()">
-    {{ quoteDetail.dislikes }} <i class="fa fa-thumbs-down" id="dislike"></i>
+    {{ quoteDetail.downvotes }} <i class="fa fa-thumbs-down" id="dislike"></i>
   </button>
   <button class="btn btn-sm btn-danger" id="del" (click)="deleteQuote(true)">
     <i class="fa fa-trash" id="delete"></i>
